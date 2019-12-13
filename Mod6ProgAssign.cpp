@@ -4,11 +4,11 @@
 //
 // Quiz 6
 // A particular talent competition has five judges, each of whom awards a score between 0 and 10 to each performer.
-// Fractional scores, such as 8.3, are allowed. A performer’s final score is determined by dropping the highest and lowest score received,
-// then averaging the three remaining scores. Write a program that uses this method to calculate a contestant’s score.
+// Fractional scores, such as 8.3, are allowed. A performerâ€™s final score is determined by dropping the highest and lowest score received,
+// then averaging the three remaining scores. Write a program that uses this method to calculate a contestantâ€™s score.
 // It should include the following functions:
 //
-// * a. void getJudgeData( ) should ask the user for a judge’s score, store it in a reference parameter variable, and validate it.
+// * a. void getJudgeData( ) should ask the user for a judgeâ€™s score, store it in a reference parameter variable, and validate it.
 //   This function should be called by main once for each of the five judges.
 // * b. void calcScore( ) should calculate and display the average of the three scores that remain after dropping the highest and
 //   lowest scores the performer received. This function should be called just once by main and should be passed the five scores.
@@ -56,7 +56,7 @@ int main()
 	return 0;
 }
 //getJudgeDataData function	
-void getJudgeData(double &judgeScore) //should ask the user for a judge’s score, store it in a reference parameter variable, and validate it.
+void getJudgeData(double &judgeScore) //should ask the user for a judgeâ€™s score, store it in a reference parameter variable, and validate it.
 		{
 			//input judge score
 			cout << "Enter a judge's score: ";
