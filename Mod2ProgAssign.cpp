@@ -1,11 +1,9 @@
 //Justin Benson
 //CoSci139 Flores
 
-
 //Write a program which:
 //Prompts the user to enter 5 numbers.
 //Once the user has entered the 5 numbers, the program should calculate and display the average of the 5 numbers.
-
 
 #include <iostream>
 //set namespace to standard
